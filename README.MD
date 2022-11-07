@@ -2,13 +2,12 @@
 
 ## Introduction
 
-The mini-AlphaStar (mini-AS, or mAS) project is a **mini-scale** version of the AlphaStar (AS) program. AlphaStar is the intelligent AI proposed by DeepMind to play StarCraft II. Note the mini-AS is a research project. It is not an official product of DeepMind.
+The mini-AlphaStar (mini-AS, or mAS) project is a **mini-scale** version of the AlphaStar (AS) program. AlphaStar is the system proposed by DeepMind to play StarCraft II. Note the mini-AS is a research project. It is not an official DeepMind project.
 
 The "mini-scale" means making the original AS's hyper-parameters **adjustable** so that we can train mini-AS on a **small** scale, e.g., in a single common commercial server machine.
 
 We referred to the "Occam's Razor Principle" when designing the mini-AS: **simple** is good. Therefore, we build the mini-AS from scratch. Unless the function significantly impacts speed and performance, we shall omit it. Meanwhile, we also try not to use too many dependency packages so that mini-AS should only depend on the PyTorch. In this way, we simplify the learning cost of the mini-AS and make the architecture of mini-AS relatively **easy**. 
 
-The [Chinese](doc/README_CHS.MD) shows a simple readme in Chinese.
 
 Below 4 GIFs are mini-AS' trained performance on Simple64, supervised learning on 50 expert replays.
 
@@ -46,8 +45,7 @@ We store the codes and show videos in two places.
 
 Codes location | Result video location | Usage 
 ------------ | ------------- | -------------
-[Github](https://github.com/liuruoze/mini-AlphaStar) | [Youtube](https://youtu.be/mTtA0vdAULw) | for global users 
-[Gitee](https://gitee.com/liuruoze/mini-AlphaStar) | [Bilibili](https://www.bilibili.com/video/BV1Hm4y197Jm/) | for users in China 
+[Github](https://github.com/liuruoze/mini-AlphaStar) | [Youtube](https://youtu.be/mTtA0vdAULw) 
 
 ## Contents
 
